@@ -1,27 +1,26 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pb-0.mb-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-5.pb-0.mb-5
 
 
     .row.mb-5
 
       .col-lg-7
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p.mb-0 En el entorno digital actual, las estrategias de mercadeo y comunicación, han evolucionado para adaptarse a un mercado cada vez más tecnológico y competitivo. La transformación digital ha permitido a las empresas aprovechar herramientas como el Big Data, la inteligencia artificial y el análisis predictivo, para personalizar sus campañas, optimizar recursos y generar experiencias más relevantes para los consumidores. Según Kotler y Keller (2016), el marketing digital no solo facilita la segmentación precisa del público objetivo, sino que también permite la medición, en tiempo real, del desempeño de las estrategias implementadas
+        p(data-aos="fade-left").mb-4  El uso de métricas claves, conocidas como KPIs (Key Performance Indicators), como el ROI, CTR, tasa de conversión y engagement, es fundamental para evaluar el impacto y la rentabilidad de las campañas de marketing digital. Estas métricas proporcionan insights accionables que guían la toma de decisiones estratégicas y justifican la inversión en actividades de mercadeo.
 
-        p(data-aos="fade-left").mb-4  El comportamiento del consumidor y la segmentación de mercados, son elementos centrales en el diseño de estrategias de marketing exitosas, puesto que permiten comprender las dinámicas de decisión de los consumidores y cómo responder a sus necesidades específicas. Esta unidad profundiza en los factores que influyen en las decisiones de compra, desde elementos psicológicos y sociales, hasta culturales y personales, proporcionando una visión integral del proceso de decisión del consumidor. La comprensión de estos factores es esencial para adaptar productos y servicios, de manera efectiva, conectando con los valores y expectativas del mercado.
-
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Al combinar criterios tradicionales, como la demografía y la psicografía, con tecnologías digitales, las organizaciones están logrando identificar y priorizar segmentos, con un alto potencial de crecimiento.
       .col-lg-5
           figure
             img(src="@/assets/curso/intro/1.svg", data-aos="zoom-in").mt-4.mt-lg-0
 
-                
-    .bg-full-width.bg-color-2
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 A lo largo de esta unidad, se analizarán estudios de caso y ejemplos de empresas líderes como Samsung y Apple, ilustrando cómo han implementado estrategias de segmentación y posicionamiento innovadoras, para fortalecer su presencia en mercados claves. De esta manera, los estudiantes no solo adquirirán un conocimiento teórico, sino también habilidades prácticas para aplicar estas estrategias en escenarios reales, contribuyendo al desarrollo de soluciones efectivas y sostenibles en el campo del marketing.
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/intro/2.png", alt="", data-aos="zoom-in")
+      .col-lg-8
+        .py-4.px-5.bg-color-2(data-aos="fade-right").h-100
+          p.mb-0 Por otro lado, la visualización de datos, juega un papel crucial en la toma de decisiones informadas. Herramientas como Google Data Studio, Tableau y Power BI, facilitan la interpretación de información compleja, permitiendo a los líderes identificar oportunidades de mejora y optimizar procesos. Además, la incorporación de valores éticos, sostenibles y responsables en el marketing digital refuerza la reputación de las marcas, creando relaciones duraderas con los consumidores en un mercado cada vez más consciente y exigente.
 </template>

@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Comprender el comportamiento del consumidor y la segmentación de mercados es esencial para diseñar estrategias de marketing efectivas que conecten con las necesidades y valores del público objetivo. En esta unidad, se explorarán los factores que influyen en las decisiones de compra, como los aspectos psicológicos, sociales y culturales, junto con métodos avanzados de segmentación que integran inteligencia artificial y análisis predictivo.
+              p.descripcion.mb-4 En el entorno digital actual, las estrategias de mercadeo y comunicación han evolucionado para adaptarse a un mercado cada vez más tecnológico y competitivo. En esta unidad, se analizarán conceptos clave como la personalización de campañas, el uso de Big Data, la inteligencia artificial y el análisis predictivo, herramientas que permiten optimizar recursos y generar experiencias relevantes para los consumidores. Asimismo, se explorará la importancia de las métricas clave (KPIs) y la ética en las estrategias digitales para fortalecer la reputación de las marcas y su relación con los consumidores.
 
 
-              p #[b Prepárese para analizar casos prácticos y desarrollar habilidades que te permitirán crear estrategias innovadoras en escenarios reales.]
+              p #[b ¡Descubra cómo liderar en el mundo digital con estrategias innovadoras y responsables!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
