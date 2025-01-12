@@ -151,3 +151,15 @@
             .pt-4
               p.mb-4(data-aos="fade-right") #[strong Recuerde.] La #[b ética] y la #[b sostenibilidad], son pilares fundamentales del marketing digital en la actualidad. Las marcas que adoptan prácticas transparentes, auténticas y sostenibles, no solo generan #[b confianza] y #[b lealtad] en sus consumidores, sino que también construyen una ventaja competitiva en un mercado exigente. Campañas como la de Nike, demuestran que la autenticidad y la conexión emocional, pueden llevar a las marcas a #[b trascender] el producto, inspirando a sus audiencias y dejando un impacto positivo a largo plazo.
 </template>
+<script>
+export default {
+  name: 'Tema3',
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass"></style>
