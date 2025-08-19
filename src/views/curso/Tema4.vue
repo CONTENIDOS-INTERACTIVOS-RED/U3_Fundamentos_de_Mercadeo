@@ -17,7 +17,7 @@
               h2.mb-4(data-aos="flip-up") Introducción al #[em Big Data] y al análisis predictivo 
               p.mb-4(data-aos="fade-right") En el PDF Introducción al #[em Big Data] y al análisis predictivo, se presentan ejemplos prácticos de marcas líderes que utilizan estas tecnologías para personalizar experiencias, optimizar recursos y adaptarse a las demandas del mercado. Este enfoque no solo mejora la relación con el cliente, sino que también impulsa la eficiencia y competitividad empresarial.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T4.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

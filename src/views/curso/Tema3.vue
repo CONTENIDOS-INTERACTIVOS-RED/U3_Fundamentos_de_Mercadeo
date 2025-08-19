@@ -9,7 +9,8 @@
           .row.justify-content-center.align-items-center
             .col-lg-6
               .py-4
-                p(data-aos="fade-left").mb-4 Para conocer sobre los fundamentos de la innovación estratégica, lo invitamos a escuchar el siguiente podcast.
+                p(data-aos="fade-left").mb-4 Para conocer sobre Estrategias de comunicación digital y branding, lo invitamos a escuchar el siguiente podcast.
+
                 
                 TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
                   texto="Estrategias de comunicación digital y <em>branding</em>"
@@ -30,13 +31,12 @@
       
       .row.align-items-center.mb-5
         .col-lg-8
-          p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
 
           LineaTiempoD.color-primario.large(data-aos="fade-left")
             div(numero="1" titulo="Integración de canales digitales") 
               h5 Integración de canales digitales: SEO, SEM, email marketing y redes sociales 
               p La Comunicación Integrada de Marketing (IMC), es un enfoque estratégico que unifica y coordina todos los canales de comunicación digitales, para ofrecer mensajes coherentes y experiencias unificadas al cliente. Herramientas como SEO (posicionamiento en buscadores), SEM (publicidad pagada), email marketing y redes sociales, permiten atraer, interactuar y fidelizar a la audiencia. Esta integración facilita que la marca tenga una presencia constante y relevante, maximizando el impacto de sus acciones, en un mercado saturado (Orero-Blat et al., 2021).
-            div(numero="2" titulo="Establecer políticas claras y bien definidas") 
+            div(numero="2" titulo="Planificación y ejecución de campañas") 
               h5 Planificación y ejecución de campañas, con cohesión multicanal 
               p Para ejecutar una campaña multicanal efectiva, es fundamental que todos los canales trabajen de manera complementaria. El SEO genera tráfico orgánico de calidad, el SEM impulsa la visibilidad rápida a audiencias segmentadas, las redes sociales fomentan la interacción y participación, mientras que el email marketing refuerza la relación directa con mensajes personalizados y automatizados. Según HubSpot (2023), las marcas que integran canales digitales tienen un 25 % más de éxito en la captación y retención de clientes. La clave está en garantizar que los mensajes sean consistentes, adaptados a cada plataforma y alineados a los objetivos estratégicos.
 
@@ -65,7 +65,6 @@
           figure
             img(src="@/assets/curso/tema3/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
         .col-lg-8
-          p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
 
           LineaTiempoD.color-primario.large(data-aos="fade-left")
             div(numero="1" titulo="Creación de conexiones emocionales a través de narrativas y valores de marca") 
@@ -77,7 +76,7 @@
             div(numero="3" titulo="Ejemplos de branding efectivo") 
               h5 Casos de éxito en branding emocional
               p #[strong Starbucks:] Starbucks ha construido su branding emocional, enfocándose en ofrecer más que un café. La marca ha logrado posicionarse como un espacio acogedor, un "tercer lugar" entre el hogar y el trabajo. Su narrativa se centra en la calidad del producto, experiencias personalizadas (como los nombres en vasos) y el ambiente de sus locales, generando conexiones emocionales que fidelizan a sus clientes.
-              p.mt-3 #[strong Nike:] La narrativa de Nike está construida alrededor del empoderamiento personal y la motivación a través del eslogan "Just Do It". La marca inspira a sus consumidores con historias de superación y éxito, utilizando contenido visual y verbal que transmite valores como el esfuerzo, la perseverancia y la superación, conectando profundamente con su audiencia.
+              p.mt-3 #[strong Nike:] La narrativa de Nike está construida alrededor del empoderamiento personal y la motivación a través del eslogan "Just Do It". La marca inspira a sus consumidores con historias de superación y éxito, utilizando contenido visual y digital que promueve valores como el esfuerzo, la perseverancia y la autenticidad, conectando profundamente con su audiencia.
 
 
       #t_3_3.titulo-segundo(data-aos="flip-up")
@@ -93,7 +92,7 @@
               h2.mb-4(data-aos="flip-up") Experiencias Integradas
               p.mb-4(data-aos="fade-right") En el PDF Experiencias Integradas, se presentan ejemplos prácticos de marcas líderes que han implementado estas innovaciones para mejorar la interacción con los consumidores, reducir la incertidumbre en las decisiones de compra y fortalecer su posicionamiento en el mercado.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

@@ -72,7 +72,7 @@
                   img(src="@/assets/curso/tema2/slider-1.png")
               .col-lg-7
                 h5 Adaptación del producto/servicio al cliente digital: uso de la personalización y la recolección de datos
-                p En el entorno digital, la personalización se convierte en un elemento clave para adaptar los productos y servicios a las necesidades del cliente moderno. Las empresas utilizan Big Data y la inteligencia artificial, para analizar patrones de comportamiento, intereses y preferencias de los consumidores. Esta recolección de datos permite ajustar la oferta, anticipar necesidades y brindar soluciones más específicas, mejorando la experiencia del usuario y aumentando su lealtad
+                p En el entorno digital, la personalización se convierte en un elemento clave para adaptar los productos y servicios a las necesidades del cliente moderno. Las empresas utilizan Big Data y la inteligencia artificial, para analizar patrones de comportamiento, intereses y preferencias de los consumidores. Esta recolección de datos permite ajustar la oferta, anticipar necesidades y brindar soluciones más específicas, mejorando la experiencia del usuario y aumentando su lealtad.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
@@ -247,23 +247,23 @@
               li.mb-3
                 .lista-ol--cuadro__vineta
                   span 1
-                | Reconocida por su alcance global y su innovador sistema de logística (Fulfillment by Amazon).
+                | #[strong Amazon.] Reconocida por su alcance global y su innovador sistema de logística (Fulfillment by Amazon).
               li.mb-3
                 .lista-ol--cuadro__vineta
                   span 2
-                | Optimiza la cadena de suministro mediante la producción y distribución digital bajo demanda, minimizando costos y tiempos de entrega.
+                | #[strong Shein.] Optimiza la cadena de suministro mediante la producción y distribución digital bajo demanda, minimizando costos y tiempos de entrega.
               li.mb-3
                 .lista-ol--cuadro__vineta
                   span 3
-                | Ofrece precios competitivos y estrategias promocionales, centradas en la retención del cliente, aprovechando la eficiencia en la distribución masiva.
+                | #[strong Temu.] Ofrece precios competitivos y estrategias promocionales, centradas en la retención del cliente, aprovechando la eficiencia en la distribución masiva.
               li.mb-3
                 .lista-ol--cuadro__vineta
                   span 4
-                | Líder en Latinoamérica, conecta vendedores con consumidores mediante un ecosistema digital completo, que incluye pagos, envíos y atención al cliente.
+                | #[strong Mercado Libre.] Líder en Latinoamérica, conecta vendedores con consumidores mediante un ecosistema digital completo, que incluye pagos, envíos y atención al cliente.
               li.mb-0
                 .lista-ol--cuadro__vineta
                   span 5
-                | Permite la creación de tiendas virtuales personalizadas, con funciones avanzadas de gestión y análisis de datos.
+                | #[strong Shopify.] Permite la creación de tiendas virtuales personalizadas, con funciones avanzadas de gestión y análisis de datos.
 
         .col-lg-auto(data-aos="zoom-in")
           img.img-fluid(src='@/assets/curso/tema2/11.png', style='max-width:504px', alt='').mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
